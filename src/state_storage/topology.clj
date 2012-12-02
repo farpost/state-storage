@@ -108,6 +108,7 @@ increments и возвращает Clojure список состояний.
                                         ;
                                         ; Чтение же происходит наоборот, по указанному снаружи протоколу :ol и :ul,
                                         ; который внешняя система определяет на основе типа объекта ("bulletin", "auction").
+
 (deftype BackwardIncrementalTopology []
   Topology
 
